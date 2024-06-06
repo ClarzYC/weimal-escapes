@@ -3,7 +3,6 @@ import numpy as np
 import streamlit as st
 import requests
 import pandas as pd
-from config import api_key, gkey, weather_key, amadeus_key, amadeus_secret
 from pprint import pprint
 import json
 import folium
@@ -15,6 +14,15 @@ from IPython.display import Image, display
 from PIL import Image
 from io import BytesIO
 
+api_key = '79af6ff5'
+
+gkey = "AIzaSyBmPx_E53SpOBus_hkVxvY7mH8rzdhWIsI"
+
+weather_key = "cd540c7cc7455c7a1e8333503b251a24"
+
+amadeus_key = "Jeax0LbFBlatQzsYIoHRqj0jQLM0M0Ak"
+
+amadeus_secret = "3UFYlbqXQtKayOb3"
 
 def get_coordinates(place_name):
     """
