@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 from pprint import pprint
 import json
-from streamlit_folium import st_folium
+from streamlit-folium import st_folium
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import seaborn as sns
