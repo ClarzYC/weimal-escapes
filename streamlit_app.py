@@ -5,7 +5,6 @@ import requests
 import pandas as pd
 from pprint import pprint
 import json
-import folium
 from streamlit_folium import st_folium
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
