@@ -1,6 +1,8 @@
 import altair as alt
 import numpy as np
 import streamlit as st
+import folium
+from streamlit_folium import st_folium
 import requests
 import pandas as pd
 from pprint import pprint
