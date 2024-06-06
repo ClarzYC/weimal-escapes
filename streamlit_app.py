@@ -498,7 +498,7 @@ def map_with_markers(place_name):
     return map_
 
 
-"""
+
 # WeiMal Escapes
 
 # Set up Streamlit page title and favicon
